@@ -1,0 +1,10 @@
+963035ee405c5dad0335b45e046a4da5 *DESCRIPTION
+fed43bb248ec83a9dcccf3cb7ea44a47 *NAMESPACE
+46b81eb1ae286130d315f69d0efe5718 *R/ForIT-package.R
+971ae7846581c7d91ead5beeb7b87cf9 *R/INFCvpe.R
+9e40ac0b2e552e81274e6701ef001cb0 *data/INFCdomain.rda
+ef9807fd9f5c1ca467a17d9b883d8042 *data/INFCstats.rda
+76cd2d95ec647b24b6e0be0cdb4c686f *man/ForIT-package.Rd
+b003eb5ef173ddbd86583540c9d0c57e *man/INFCdomain.Rd
+55426f9f3d066a04ff0a5d2ffbbcd40d *man/INFCstats.Rd
+d64da09eed99aa87861d6030fe8c353f *man/INFCvpe.Rd
