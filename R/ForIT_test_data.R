@@ -1,0 +1,46 @@
+#' 'ForIT'-package TEST-data - Ver.2
+#'
+#' A tiny test dataset including example data displayed in Tabacchi et al. (2011),
+#' the basic reference for ForIT package.
+#'
+#' @format A data frame with 16 rows and 5 variables:
+#'
+#' @details
+#' The dataset is produced by the following code.
+#'```
+#' ForIT_test_data <- dplyr::tribble(
+#'   ~UC, ~IdF, ~specie, ~d130, ~h_dendro,
+#'   # UC: Plot Id (Unità Campionaria)
+#'   # IdF: Stem ID (Identificativo Fusto)
+#'   # specie: EPPO species code (see https://gd.eppo.int/)
+#'   #  - ACRCA: Acer campestre
+#'   #  - ABIAL: Abies alba
+#'   #  - FAUSY: Fagus sylvatica
+#'   # d130: trunk diameter at breast height [cm]
+#'   # h_dendro: tree height [m]
+#'  # Example data in Tabacchi et al. (2011) pag. 25
+#'   "U1","01","ACRCA",10,7,
+#'   "U1","02","ACRCA",15,9,
+#'   "U1","03","ACRCA",20,12,
+#'   "U1","04","ACRCA",30,20,
+#'   "U1","05","ACRCA",32,21,
+#'   "U1","06","ACRCA",24,18,
+#'   "U1","07","ACRCA",36,21,
+#'   "U1","08","ACRCA",40,22,
+#'   "U1","09","ACRCA",8,8,
+#'   "U1","10","ACRCA",18,12,
+#'
+#'  # Example continuation, pag. 27
+#'   "U2","01","ABIAL",38,21,
+#'   "U2","02","ABIAL",52,28,
+#'   "U2","03","FAUSY",25,16,
+#'   "U2","04","FAUSY",30,18,
+#'   "U2","05","FAUSY",12,10,
+#'
+#'  # Extra lines, to test for 'out of domain'
+#'   "U0","01","ACRCA",22,14,   # pag. 24
+#'   "U0","02","ACRCA",30,10
+#'  )
+#'```
+#'
+"ForIT_test_data"
