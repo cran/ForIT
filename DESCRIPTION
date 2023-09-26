@@ -1,7 +1,7 @@
 Package: ForIT
 Title: Functions to Estimate Tree Volume and Phytomass in the Italian
         Forest Inventory 2005
-Version: 2.0.1
+Version: 2.4.0
 Authors@R: c(
     person(given = "Nicola",
            family = "Puletti",
@@ -19,7 +19,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-7394-4473"))
         )
 Description: Tabacchi et al. (2011) published a very detailed study producing a uniform system of functions to estimate tree volume and
-    phytomass components (stem, branches, stool). The estimates of the 2005 Italian forest inventory (<https://www.inventarioforestale.org/>) 
+    phytomass components (stem, branches, stool). The estimates of the 2005 Italian forest inventory (<https://www.inventarioforestale.org/it/>) 
     are based on these functions. The study documents the domain of applicability of each function and the equations to quantify estimates
     accuracies for individual estimates as well as for aggregated estimates. This package makes the functions available in the R environment. 
     Version 2 exposes two distinct functions for individual and summary estimates. To facilitate access to the functions, tree species 
@@ -27,7 +27,7 @@ Description: Tabacchi et al. (2011) published a very detailed study producing a 
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 Imports: magrittr, dplyr, purrr, tibble, tidyr, RColorBrewer, metR,
         rlang, ggplot2
 Suggests: Matrix, testthat
@@ -35,10 +35,10 @@ URL: https://gitlab.com/NuoroForestrySchool/ForIT.git, DOI:
         10.5281/zenodo.5790157
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2022-06-11 17:24:54 UTC; roberto
+Packaged: 2023-09-26 18:57:50 UTC; nicolapuletti
 Author: Nicola Puletti [aut, cre] (<https://orcid.org/0000-0002-2142-959X>),
   Mirko Grotti [aut],
   Roberto Scotti [aut] (<https://orcid.org/0000-0001-7394-4473>)
 Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-06-11 21:30:02 UTC
+Date/Publication: 2023-09-26 19:10:02 UTC

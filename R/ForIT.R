@@ -17,4 +17,5 @@
 #'
 #' @docType package
 #' @name ForIT
+#' @aliases ForIT-package
 NULL

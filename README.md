@@ -10,7 +10,7 @@
 The functions estimating tree volume and aboveground (ABG) phytomass for the 2nd Italian National 
 Forest Inventory (2005) are documented in Tabacchi et al. (2011). 
 (The section of the the publication exposing "Methods and results global evaluation"  is accessible 
-[here](https://drive.google.com/file/d/1uHgkxG6pJqSnfephJ6_yKOlOQFlAurIV/view?usp=sharing)
+[here](https://drive.google.com/file/d/1uHgkxG6pJqSnfephJ6_yKOlOQFlAurIV/view?usp=sharing))
 Regression models have been developed based on sample trees collected within three successive projects, 
 in order to consider, as much as possible, all of the most relevant tree species present in Italian forests.  
 
@@ -207,7 +207,7 @@ Equazioni di previsione, tavole del volume e tavole della fitomassa
 arborea epigea. Stima del volume e della fitomassa delle principali
 specie forestali italiane. Equazioni di previsione, tavole del volume e
 tavole della fitomassa arborea epigea. 412 pp.
-[full text](https://www.inventarioforestale.org/sites/default/files/datiinventario/pubb/tavole_cubatura.pdf)
+[full text](https://www.inventarioforestale.org/wp-content/uploads/2022/10/tavole_cubatura.pdf)
 
 
 Tabacchi G., Di Cosmo L., Gasparini P., 2011. Aboveground tree volume

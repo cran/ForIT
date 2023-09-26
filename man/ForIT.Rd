@@ -3,6 +3,7 @@
 \docType{package}
 \name{ForIT}
 \alias{ForIT}
+\alias{ForIT-package}
 \title{ForIT: A package that implements as R functions the INFC-2005 equations estimating single tree volume and phytomass .}
 \description{
 The ForIT package provides two main functions, estimating respectively individual and summary

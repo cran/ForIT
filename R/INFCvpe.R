@@ -15,8 +15,7 @@
 #'     see \code{prediction.lm(.., interval = "confidence")}
 #'     \item \code{Var_ie} - variance for an individual estimate\cr
 #'     or 'prediction variance', (see \code{prediction.lm(.., interval = "prediction")} and
-#'     [Freese, 1964 - in:Tabacchi,
-#'     2011](https://www.fpl.fs.fed.us/documnts/fplrp/fplrp17.pdf)
+#'     Freese, 1964 - in:Tabacchi, 2011
 #'     \item \code{InDomain} - logical indicating whether the (dbh, htot) point lies
 #'     out of the domain explored by the experimental data (see 'INFCtabulate()')
 #'   }
