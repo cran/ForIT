@@ -70,7 +70,7 @@
 #'
 #' @name INFCvpeSUM
 NULL
-
+#' @importFrom dplyr cross_join
 #' @export
 #' @rdname INFCvpeSUM
 INFCvpe_summarise<- function(in.data, EPPOcode_C, dbh_C, h_tot_C, quantity = "vol", p = .95 ){
@@ -134,8 +134,10 @@ INFCvpe_agg<- function(in.data, quantity, p){
     stop(paste("ERROR in quantity value:", paste(unique(quantity), collapse =", ")))
 
   if (identical(sort(quantity), sort(unique(quantity))))
-    in.data <- in.data %>%
-      dplyr::inner_join(dplyr::tibble(quantity = quantity), by = character())
+    # in.data <- in.data %>%
+    #   dplyr::inner_join(dplyr::tibble(quantity = quantity), by = character())
+    #:: modifica richiesta il 25 aprile 2025
+    in.data <- dplyr::cross_join(in.data, dplyr::tibble(quantity = quantity))
   else
     if (length(quantity) == nrow(in.data))
       in.data <- in.data %>%

@@ -15,7 +15,5 @@
 #' volume and phytomass prediction equations for forest species in Italy}.
 #' European Journal of Forest Research 130: 6 911-934
 #'
-#' @docType package
-#' @name ForIT
-#' @aliases ForIT-package
-NULL
+#' @keywords internal
+"_PACKAGE"

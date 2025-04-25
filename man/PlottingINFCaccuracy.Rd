@@ -38,7 +38,7 @@ compute_grid0(pag, EPPOcod, quantity)
 
 \item{quantity}{(optional) A string specifying the quantity to be estimated,
 one of \code{c("vol", "dw1" : "dw4")}.
-Lookup \code{Qantities} table to retrieve codes definitions.
+Lookup \code{Quantities} table to retrieve codes definitions.
 Defaults to "vol".}
 
 \item{ie.Var}{(optional) Logical. Choose variance estimator:
@@ -95,7 +95,7 @@ all values required for the 'fill' will be computed and,
 at finer resolution, the process can be slow.
 \item \code{INFCaccuracyPlot0()} - produces, much faster, the plots at the finest
 resolution, using pre-calculated values stored in
-a specific auxiliary dataframe (see \code{\link{INFC_CVgrid}}),
+a specific auxiliary data.frame (see \code{\link{INFC_CVgrid}}),
 necessarily leaving less customization freedom.
 }
 (** \code{compute_grid0()} - is an internal function exported for the sake of
